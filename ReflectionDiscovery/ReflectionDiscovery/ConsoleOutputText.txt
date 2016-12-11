@@ -1,32 +1,74 @@
+
 Begin Reflection Discovery
 
-Enter the path and name of the assembly:
-d:\\dev\\github\\reflectiondiscovery\\reflectiondiscovery\\reflectiondiscovery\\mathlib.dll
+Select a .DLL file containing an assembly manifest...
+
+Assembly chosen:
+
+D:\Dev\GitHub\Temp\MathLib\bin\Debug\MathLib.dll
+
+
 Assembly name = MathLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  Type name = Methods
+  Type name = MathLib
+
+   Method name = Add
+    Return type = System.Int32
+      Parameter name = x
+      Parameter type = System.Int32
+
+      Parameter name = y
+      Parameter type = System.Int32
+
+   Method name = Subtract
+    Return type = System.Int32
+      Parameter name = x
+      Parameter type = System.Int32
+
+      Parameter name = y
+      Parameter type = System.Int32
+
+   Method name = Multiply
+    Return type = System.Int32
+      Parameter name = x
+      Parameter type = System.Int32
+
+      Parameter name = y
+      Parameter type = System.Int32
+
+   Method name = Divide
+    Return type = System.Int32
+      Parameter name = x
+      Parameter type = System.Int32
+
+      Parameter name = y
+      Parameter type = System.Int32
+
    Method name = ArithmeticMean
     Return type = System.Double
       Parameter name = vals
       Parameter type = System.Int32[]
+
    Method name = GeometricMean
     Return type = System.Double
       Parameter name = vals
       Parameter type = System.Int32[]
+
    Method name = HarmonicMean
     Return type = System.Double
       Parameter name = vals
       Parameter type = System.Int32[]
+
    Method name = ToString
     Return type = System.String
    Method name = Equals
     Return type = System.Boolean
       Parameter name = obj
       Parameter type = System.Object
+
    Method name = GetHashCode
     Return type = System.Int32
    Method name = GetType
     Return type = System.Type
 
-Done!
 
-Press Enter to exit...
+Done! Press Enter to exit...

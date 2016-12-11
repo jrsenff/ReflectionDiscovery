@@ -1,4 +1,15 @@
-﻿using System;
+﻿/****************************** Module Header ******************************\
+Module Name:  Discover.cs
+Project:      ReflectionDiscovery
+Author:       Jerold Senff
+Updated:      12/11/2016
+
+ReflectionDiscovery:
+A C# utility that uses .NET Reflection to obtain information from 
+a dynamic link library (.DLL) with an assembly manifest.
+\***************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -8,7 +19,7 @@ using System.Windows.Forms;
 
 namespace ReflectionDiscovery
 {
-    class Program
+    class Discover
     {
         [STAThread]
         static void Main(string[] args)

@@ -2,7 +2,7 @@
 Module Name:  Discover.cs
 Project:      ReflectionDiscovery
 Author:       Jerold Senff
-Updated:      12/11/2016
+Updated:      01/10/2019
 
 ReflectionDiscovery:
 A C# utility that uses .NET Reflection to obtain information from 
